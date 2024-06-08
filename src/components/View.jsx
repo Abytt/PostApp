@@ -7,7 +7,7 @@ const View = () => {
   const fetchData = () => {
     axios.get("https://jsonplaceholder.typicode.com/posts").then(
       (reponse) => {
-        changedata(reponse.data)
+        changedata(reponse.data) 
       }
     ).catch().finally()
     
